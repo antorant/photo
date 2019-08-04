@@ -1,5 +1,6 @@
-## Image Name Format
-`[0-9x]{2}.jpg`
+## Image
+Name format: `[0-9x]{2}.jpg`
+Size: `1280px`
 
-## Find & Replace
-`([0-9]{2}.jpg)` `->` `<img src="img/201903/$1" />`
+### Generate image tags from file list
+Find: `([0-9]{2}.jpg)` Replace: `<img src="img/201903/$1" />`
