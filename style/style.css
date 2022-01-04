@@ -4,9 +4,16 @@ body {
   max-width: 40rem;
 }
 
+nav {
+  line-height: 1.5;
+}
+
+nav a { margin: auto .5em; }
+
 h2 {
   margin-bottom: 8rem;
   margin-top: 8rem;
+  padding-top: 8rem;
 }
 
 img {
